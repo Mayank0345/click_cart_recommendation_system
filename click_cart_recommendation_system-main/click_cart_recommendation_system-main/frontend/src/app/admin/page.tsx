@@ -1,6 +1,6 @@
 ﻿import Link from 'next/link';
 import { headers } from 'next/headers';
-import { getProducts, type Product } from '../catalog';
+import { getProducts, type Product } from '../../lib/catalog';
 import CatalogEditor from './catalog-editor';
 
 const api = process.env.API_INTERNAL_URL || process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
